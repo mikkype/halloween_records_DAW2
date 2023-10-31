@@ -1,0 +1,28 @@
+.imagen {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.imagen img {
+    
+    width: 100%;
+    height: 300px;
+}
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: rgb(247, 154, 15);
+    padding: 10px;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 48px;
+    
+}
+.texto span{
+    font-size: 24px;
+}
+
+
